@@ -1,0 +1,24 @@
+{
+  "name": "node-pokemon-api",
+  "version": "1.0.0",
+  "description": "Initiate to the langage nodeJs with an API rest to handle pokemons.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Maoake",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "mariadb": "^3.3.2",
+    "node-pokemon-api": "file:",
+    "sequelize": "^6.37.4",
+    "serve": "^14.2.3",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
